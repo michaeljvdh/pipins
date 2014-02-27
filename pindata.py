@@ -51,7 +51,7 @@ def generatepins():
     x ('UPDATE pindata SET intended="GPIO 1 (I2C0 SCL)" WHERE pin="5"')
     x ('UPDATE pindata SET intended="GND" WHERE pin="6"')
     x ('UPDATE pindata SET assign="GND" WHERE pin="6"')
-    x ('UPDATE pindata SET intended="GPIO 4 1-wire (GP CLK0)" WHERE pin="7"')
+    x ('UPDATE pindata SET intended="GPIO 4 1-w (GP CLK0)" WHERE pin="7"')
     x ('UPDATE pindata SET intended="GPIO 14 UART0_TXD" WHERE pin="8"')
     x ('UPDATE pindata SET intended="GND" WHERE pin="9"')
     x ('UPDATE pindata SET assign="GND" WHERE pin="9"')
