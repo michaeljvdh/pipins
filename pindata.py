@@ -116,6 +116,7 @@ while true:
     print ("")
     print ("type in (exit) to quit.")
     selectpin = raw_input("Modify Pin:")
+    selectpin = selectpin.lower()
     if selectpin == ("exit"):
         exit()
     print ("(update) or (delete)")
